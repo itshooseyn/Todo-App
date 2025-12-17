@@ -1,0 +1,33 @@
+#Todo-input {
+    background: none;
+    box-shadow: 1px 1px 5px black !important;
+}
+
+#Todo-input:focus {
+    outline: none;
+    box-shadow: 1px 1px 10px black !important;
+    transition: all .3s;
+}
+
+.icons {
+    width: 80px;
+    height: 80px;
+    box-shadow: 1px 1px 5px black !important;
+    transition: all .3s;
+}
+
+.icons:hover {
+    background: rgba(255, 255, 255, 0.35);
+}
+
+#Todo-container {
+    background: rgba(1, 1, 1, 0.1);
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.todo-card {
+    height: 80px;
+    /* box-shadow: 1px 1px 5px black !important; */
+    background: rgba(255, 255, 255, 0.15);
+}

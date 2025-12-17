@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "vazir" !important;
+}
+
+h1 {
+    color: black
+}
+
+.colorized {
+    color: whitesmoke !important;
+}
+
+#BookIcon {
+    font-size: 60px;
+}
+
+#Header-container {
+    /* background: rgba(255, 255, 255, 0.15); */
+    padding: 1rem 3rem;
+    width: 35%;
+}
