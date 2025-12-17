@@ -24,6 +24,7 @@ export default function Todos() {
     setTodoList(todoList.filter(todo => todo.id != id))
   }
 
+  //edit Todo function
   const editTodo = (title) => {
     const foundIndex = todoList.findIndex(todo => todo.title === title);
     const newValue = prompt("write new value : ")
